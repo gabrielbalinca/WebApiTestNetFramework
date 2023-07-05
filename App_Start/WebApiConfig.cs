@@ -20,6 +20,14 @@ namespace WebApiTestNetFramwork
                 defaults: new { id = RouteParameter.Optional }
             );
 
+<<<<<<< HEAD
+=======
+            config.Routes.MapHttpRoute(
+                name: "PostApi",
+                routeTemplate: "api/Licensing/PostDetails",
+                defaults: new { id = RouteParameter.Optional }
+            );
+>>>>>>> 9409d13d33b29939157a7408540c0a60f6c8d1f0
         }
     }
 }
